@@ -28,14 +28,10 @@ The system also assists showroom staff by automatically generating quotations, m
 
 📊 Sales & Analytics Dashboard: Displays customer interest, booking rates, and popular car models for decision-making.
 
-⚙️ Technologies Used
-Component	Purpose
-Artificial Intelligence (AI/ML)	Recommendation system for personalized car suggestions
-Python / Flask	Backend development for catalog and chatbot functions
-MySQL / Firebase	Database for storing car details and user requests
-HTML, CSS, JavaScript	Front-end web interface
-Email API / Twilio	For automated customer communication
-IoT Integration (Optional)	Tracks car availability and test-drive scheduling
+🛠️ Technologies Used
+
+The system is developed using Python and Flask for backend automation and HTML, CSS, and JavaScript for the interactive front-end interface. AI/ML algorithms power the personalized car recommendation engine, while MySQL or Firebase manages customer and vehicle data. Email API or Twilio enables automated communication with users, and optional IoT integration allows real-time tracking of car availability and test-drive scheduling.
+
 🔄 Workflow Overview
 
 The customer accesses the Car Catalog System via web or kiosk.
@@ -79,3 +75,6 @@ The system reserves the vehicle slot and sends a confirmation to the customer an
 
 The Automated Car Catalog System for Enhanced Showroom Management demonstrates how AI and automation can modernize traditional car dealerships.
 By combining intelligent recommendations, digital communication, and real-time inventory updates, this project provides a seamless experience for both customers and staff — transforming showrooms into smart, data-driven environments.
+📧 Automated Notifications: Sends confirmation and follow-up emails for inquiries and test-drive requests.
+
+📊 Sales & Analytics Dashboard: Displays customer interest, booking rates, and popular car models for decision-making.
