@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Car Request Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+
+    .background-wrapper {
+      background: url('C:/Users/saipr/OneDrive/Pictures/Screenshots/Screenshot 2024-10-28 125727.png') no-repeat center;
+      background-size: contain;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .overlay-box {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 30px 40px;
+      max-width: 500px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 15px;
+      margin: 8px 0;
+    }
+
+    strong {
+      color: #222;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background-wrapper">
+    <div class="overlay-box">
+      <h2>Car Request Notification</h2>
+      <p>Hello, your request for a car model has been submitted and approved.</p>
+
+      <p><strong>Requested Car:</strong> ${requested_for}</p>
+      <p><strong>Status:</strong> ${approval}</p>
+
+      <p>Thank you for choosing Mahendra!</p>
+    </div>
+  </div>
+</body>
+</html>
